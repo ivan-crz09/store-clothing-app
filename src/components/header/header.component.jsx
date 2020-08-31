@@ -10,15 +10,17 @@ const Header = () => (
 			<Logo className="logo" />
 		</Link>
 		<div className="options-container">
-            <Link className="option" to="/shop">
-                SHOP
-            </Link>
-            <Link className="option" to="/shop">
-                CONTACT
-            </Link>
-        </div>
+			<Link className="option" to="/shop">
+				SHOP
+			</Link>
+			<Link className="option" to="/shop">
+				CONTACT
+			</Link>
+			<Link className="option" to="/signin">
+				SIGN IN
+			</Link>
+		</div>
 	</div>
 );
-
 
 export default Header;
